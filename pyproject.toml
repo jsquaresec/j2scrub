@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "j2scrub"
+version = "0.1.0"
+description = "Offline-first privacy utility to sanitize what you share and clean what you leave behind."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Joshua Jones"}]
+keywords = ["privacy", "security", "metadata", "exif", "cleanup", "opsec"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX :: Linux",
+  "Operating System :: Microsoft :: Windows",
+  "Programming Language :: Python :: 3",
+  "Topic :: Security",
+]
+dependencies = ["Pillow>=10.0.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+j2scrub = "j2scrub.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["j2scrub*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
