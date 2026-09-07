@@ -143,6 +143,10 @@ MIT License. See [LICENSE](LICENSE).
 **Cisco** • Issued September 2026  
 [![Verify on Credly](https://img.shields.io/badge/Verify-Credly-168BFF?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/badges/5c1f2234-ae0a-45de-af49-677dce570e23/public_url)
 
+### Ethical Hacking
+**Cisco** • Issued September 2026  
+[![Verify on Credly](https://img.shields.io/badge/Verify-Credly-168BFF?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/badges/cc6f57d0-015b-40d1-ad02-2afb4c1a37ac/public_url)
+
 ---
 
 Created and maintained by **Joshua Jones / jsquaresec**.
